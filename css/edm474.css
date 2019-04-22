@@ -1,0 +1,819 @@
+@charset "UTF-8";
+@import url("http://fonts.googleapis.com/earlyaccess/notosanstc.css");
+@import url("https://fonts.googleapis.com/earlyaccess/cwtexming.css");
+@import url("https://fonts.googleapis.com/earlyaccess/cwtexkai.css");
+@import url("https://fonts.googleapis.com/earlyaccess/cwtexfangsong.css");
+@import url("https://fonts.googleapis.com/earlyaccess/cwtexyen.css");
+
+body {
+	color: #333;
+	background: #fff;
+	line-height: 1.5;
+	letter-spacing: .02em;
+	-webkit-text-size-adjust: 100%;
+	font: 15px '微軟正黑體','Arial',sans-serif;
+}
+/* CSS Document */
+/* CSS Document */
+#edm474 #Courtpolice{
+    background-image: url(../img/Courtpolice-background.jpg);
+/*    height: calc(100vh - 90px);*/
+    padding-top: 90px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    color: #333
+}
+#edm474 .fa{
+    color: #333;
+}
+#edm474 .desk-ver{
+    display: block;
+    }
+#edm474 .mob-ver{
+    display:none;
+    }
+.clearfix::after{
+    content: '';
+    clear: both;
+    display: block;
+}
+.embed-container { 
+    position: relative; 
+    padding-bottom: 56.25%; 
+    height: 0; 
+    overflow: hidden; 
+    max-width: 100%; 
+} 
+.embed-container iframe, .embed-container object, .embed-container embed { 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 100%; 
+}
+#edm474 .container{
+    position: relative;
+    max-width: 1200px;
+    padding: 0px;
+    margin: 0 auto;
+}
+#edm474 .titblock{
+    max-width: 780px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 40px;
+    text-align: center;
+    display: block;
+    position: relative;
+    min-height: 184px;
+    padding-top: 20px;
+    margin: 50px auto;
+    overflow: hidden;
+}
+#edm474 .titblock h3{
+    font-size: 40px;
+    font-weight: bold;
+    -webkit-text-stroke: 1.5px #333;
+/*	text-shadow: 0px 0px 10px #fff, 0px 0px 10px #fff, 0px 0px 10px #fff  */
+}
+#edm474 .titblock h2{
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+#edm474 .titblock:before{
+    content: '';
+    position: absolute;
+    background-image: url(../img/left.png);
+    width: 106px;
+    height: 184px;
+    left: 0;
+    top: 0
+}
+#edm474 .titblock:after{
+    content: '';
+    position: absolute;
+    background-image: url(../img/rightmarks.png);
+    width: 115px;
+    height: 183px;
+    right: 0;
+    top: 0
+}
+#edm474 .decimal li{
+    list-style: decimal;
+    margin-left: 20px
+}
+#edm474 table{
+    margin: 10px 0
+}
+#edm474 th{
+    border: 1px solid #555;
+    background-color: #555;
+    color: #fff;
+    vertical-align: middle;
+}
+#edm474 td{
+    border: 1px solid #555;
+    background-color: rgba(255, 255, 255, 0.5);
+    vertical-align: middle;
+}
+#edm474 .ulMain{
+    font-size: 18px;
+    padding-left: 20px
+}
+#edm474 .ulMain li{
+    position: relative;
+    margin-bottom: 5px
+}
+#edm474 .ulMain li:before{
+    display: block;
+    content: '▶';
+    position: absolute;
+    top: 6px;
+    left: -20px;
+    font-size: 12px;
+}
+#edm474 .ulMain li ul li:before{
+    display: block;
+    content: '';
+    position: relative;
+}
+#edm474 .ulMain li ul li{
+    padding-left: 20px;
+    position: relative;
+}
+#edm474 .ulMain li ul li span{
+    position: absolute;
+    left: -0px;
+    font-size: 15px;
+    top: 2px;
+    font-weight: bold;
+}
+#edm474 .col-left{
+    float: left;
+    width: 30%;
+    margin-top: 100px
+}
+#edm474 .col-right{
+    float: right;
+    width: 70%;
+}
+/*block1*/
+#edm474 .block1{
+/*    height: 600px;*/
+    position: relative;
+    overflow: hidden;
+/*    background-color: rgba(255, 255, 255, 0.58);*/
+}
+#edm474 .block1 .bigtit{
+    float: left;
+    width: 45%
+}
+#edm474 .block1 .bigtit h3{
+    font-size: 21px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 30px;
+    line-height: 35px;
+}
+#edm474 .block1 .bigtit h2{
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    color: #1B74BB
+}
+#edm474 .block1 .bigtit h2 .fa{
+    color: #1B74BB;
+    margin-left: 5px
+}
+.anidown{
+    position: relative;
+    padding-top: 0px;
+    animation: anidown 1s linear infinite alternate; 
+}
+@keyframes anidown {
+    0% {
+        padding-top: 0px;
+    }
+    100% {
+        padding-top: 20px;
+    }
+}
+#edm474 .block1 .bigtit img{
+    padding-top: 80px
+}
+#edm474 .block1 .policefemale{
+    float: right;
+     width: 55%;
+}
+/*block2*/
+#edm474 .block2{
+    background-color: rgba(165, 192, 223, 0.8);
+    position: relative;
+    overflow: hidden;
+    padding: 40px 0
+}
+#edm474 .wh_box{
+    padding: 40px 40px;
+    box-sizing: border-box;
+    background-color: #fff;
+    max-width: 550px;
+    margin: 0 auto;
+    width: 100%;
+    position: relative;
+    border-radius: 10px;
+}
+#edm474 .block2 .wh_box .smallpolice{
+    position: absolute;
+    top: 0;
+    right: -230px
+}
+#edm474 .vedio_box{
+    padding: 0px;
+    box-sizing: border-box;
+    max-width: 550px;
+    margin: 0 auto;
+    width: 100%;
+    position: relative;
+    margin-top: 40px;
+}
+#edm474 .vedio_box .smallpolice{
+    position: absolute;
+    top: 0;
+    left: -250px
+}
+#edm474 .fa-play{
+    font-size: 50px;
+    position: absolute;
+    color: #fff;
+    left: calc(50% - 20px);
+    top: calc(50% - 20px);
+    border-radius: 50%;
+    transition: all .3s
+}
+#edm474 .fa-play:hover{
+    opacity: .8
+}
+#edm474 .fa-play:after{
+    content: '';
+    border: 10px solid #fff;
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    left: calc(40% - 20px);
+    top: calc(40% - 20px);
+    border-radius: 50%;
+    left: -30px;
+    top: -20px
+}
+/*block3*/
+#edm474 .block3{
+    padding: 50px 0;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+#edm474 .block3 .col-left{
+    float: left;
+    width: 400px;
+}
+#edm474 .block3 .col-right{
+    float: right;
+    width: calc(100% - 400px);
+    box-sizing: border-box;
+    padding-left: 60px
+}
+/*block4*/
+#edm474 .block4{
+    padding: 50px 0;
+}
+#edm474 .block4 .wh_box{
+    font-size: 18px;
+    border: 1px solid #1B74BB;
+}
+#edm474 .block4 .wh_box h5{
+    position: absolute;
+    background-color: #1B74BB;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    top: -15px;
+    font-size: 20px;
+    left: 10px
+}
+
+#edm474 .block4 .wh_box .smallpolice{
+    position: absolute;
+    top: 0;
+    left: -150px
+}
+#edm474 .block4 .table-box{
+    width: 100%;
+    max-width: 550px;
+    margin: 20px auto;
+}
+#edm474 .block4 .table-box p{
+    text-align: left;
+    font-size: 18px;
+    margin-bottom: 5px
+}
+#edm474 .block4 .table-box th{
+    text-align: center;
+}
+#edm474 .block4 .table-box td{
+    height: 180px
+}
+#edm474 .block4 .table-box td span{
+    font-size: 16px;
+}
+#edm474 .block4 .table-box a{
+    color: #333;
+    text-decoration: underline;
+}
+#edm474 .block4 .table-box .blue_btn{
+    background-color: #1B74BB;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 18px;
+    text-decoration: none;
+    margin: 10px auto;
+    display: block;
+    text-align: center;
+    width: 100px;
+    color: #fff;
+}
+#edm474 .block4 .blue_btn:hover{
+    background-color: #2aa1ff
+}
+#edm474 .block4 .col3{
+    float: left;
+}
+#edm474 .block4 .col3_40{
+    width: calc(40% - 10px);
+    margin-left: 10px;
+    box-sizing: border-box;
+}
+#edm474 .block4 .col3_20{
+    width: calc(20%);
+    box-sizing: border-box;
+}
+#edm474 .block4 ul li{
+    list-style: decimal;
+    font-size: 18px;
+}
+#edm474 .block4 table ul{
+    padding-left: 15px 
+}
+/*block5*/
+#edm474 .block5{
+    padding: 50px 0;
+    background-color: rgba(51, 51, 51, 0.8);
+    color: #fff;
+}
+#edm474 .block5 .teacherbox{
+    float: left;
+    width: calc(50% - 20px);
+    box-sizing: border-box;
+    margin-top: 100px
+}
+#edm474 .block5 .vedio_box{
+    margin-top: 0px;
+}
+#edm474 .block5 .box_xiao{
+    margin-right: 20px;
+}
+#edm474 .block5 .box_Liao{
+    margin-left: 20px;
+}
+#edm474 .block5 .teacherbox .main{
+    float: left;
+    width: 50%;
+}
+#edm474 .block5 .teacherbox .main ul{
+    font-size: 17px;
+    padding-left: 20px;
+    margin-top: 30px
+}
+#edm474 .block5 .teacherbox .teacherphoto{
+    float: right;
+    width: 50%;
+}
+#edm474 .block5 .box_Liao .teacherphoto{
+    padding-top: 17px
+}
+/*block6*/
+#edm474 .block6{
+    padding: 50px 0;
+}
+.card-wrap {
+  overflow: hidden;
+  width: 105%;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+#edm474 .block6 .titblock h3:nth-of-type(1),#edm474 .block6 .titblock h3:nth-of-type(3){
+    font-size: 35px;
+}
+#edm474 .block6 .titblock h2{
+    max-width: 420px;
+    margin: 20px auto 0 auto;
+}
+#edm474 .block6 .card{
+    max-width: 580px;
+    margin: 10px auto;
+    position: relative;
+}
+#edm474 .block6 .card .smallpolice{
+   position: absolute;
+    z-index: 2;
+    left: -230px;
+    top: -100px;
+}
+.tw-card {
+	position:relative;
+  width: 260px;
+  height: 170px;
+	-webkit-transform-style:preserve-3d;
+	transform-style:preserve-3d;
+	-webkit-transform:rotatey(0deg) translatex(0px) translatey(0px);
+	transform:rotatey(0deg) translatex(0px) translatey(0px);
+	-webkit-transition:all 0.6s cubic-bezier(0.68,-0.55,0.265,1.55);
+	transition:all 0.6s cubic-bezier(0.68,-0.55,0.265,1.55);
+	box-shadow:4px 4px 20px rgba(0,0,0,0.2);
+	margin:5px;
+	cursor:pointer;
+  float: left;
+}
+.tw-card:nth-of-type(3){
+    float: right;
+}
+.tw-card.open {
+	width:290px;
+	height:250px;
+	-webkit-transform:rotatey(-180deg) translatex(0px) translatey(0px);
+	transform:rotatey(-180deg) translatex(0px) translatey(0px);
+}
+.tw-card .front {
+	-webkit-transform:rotateY(0deg) translateZ(2px);
+	transform:rotateY(0deg) translateZ(2px);
+	position:absolute;
+	top:0;
+	left:0;
+	bottom:0;
+	right:0;
+	background-color:brown;
+	border:2px white solid;
+	border-radius:5px;
+}
+.tw-card .front .main-slo {
+  font-family: microsoft yahei;
+      width: 100%;
+      position: absolute;
+      top: 54%;
+      left: 0;
+      font-size: 35px;
+      margin: -35px 0 0 0;
+      text-align: center;
+      color: #ddd;
+      font-weight: bold;
+}
+.tw-card .front .title {
+  font-family: meiryo;
+	width:100%;
+	position:absolute;
+	top:55%;
+	left:0;
+	text-transform:uppercase;
+	font-size:14px;
+	margin:15px 0 0 0;
+	text-align:center;
+	color:#eee;
+}
+.tw-card .front .open-it {
+  text-align: center;
+  position: absolute;
+  top: 0px;
+  font-size: 18px;
+  color: #fff;
+  background-color: rgba(0,0,0,0.1);
+  width: 100%;
+  border-bottom-left-radius: 100%;
+  border-bottom-right-radius: 100%;
+  height: 30px;
+  padding-top: 5px;
+  font-weight: 100;
+  font-family: monospace;
+  letter-spacing: 1px;
+
+
+}
+.tw-card .front .atomic-mass {
+	position:absolute;
+	bottom:10px;
+	right:10px;
+	font-size:12px;
+	color:#2980b9;
+}
+.tw-card .back {
+	-webkit-transform:rotateY(180deg) translateZ(0px);
+	transform:rotateY(180deg) translateZ(0px);
+	/*display:-webkit-box;
+	display:-ms-flexbox;
+	display:flex;*/
+	-webkit-box-orient:vertical;
+	-webkit-box-direction:normal;
+	-ms-flex-direction:column;
+	flex-direction:column;
+	-ms-flex-wrap:nowrap;
+	flex-wrap:nowrap;
+	-webkit-box-pack:center;
+	-ms-flex-pack:center;
+	justify-content:center;
+	-webkit-box-align:center;
+	-ms-flex-align:center;
+	align-items:center;
+	position:absolute;
+	top:0;
+	left:0;
+	bottom:0;
+	right:0;
+	background-color: brown;
+	border:2px white solid;
+	border-radius:5px;
+	padding:20px;
+	text-align:center;
+	overflow:hidden;
+}
+.tw-card .back p {
+  color: #eee;
+	font-size:15px;
+	margin:0;
+  text-align: left;
+  letter-spacing: 0;
+  padding-top: 10px;
+  font-family: meiryo;
+
+}
+.tw-card .back a.btn {
+	display:inline-block;
+	background-color:white;
+	padding:5px 15px;
+	margin:20px 0 0 0;
+	color:#eee;
+	background-color:#3498db;
+	text-decoration:none;
+	border-radius:3px;
+}
+.tw-card .back a.btn:hover,.tw-card .back a.btn:focus {
+	color:#fff;
+	background-color:#2980b9;
+}
+.tw-card .front .main-slo span {
+  font-family: impact;
+      color: brown;
+      display: inline-block;
+      line-height: 30px;
+      width: 30px;
+      border-radius: 100px;
+      font-size: 22px;
+      background-color: #ddd;
+      top: -4px;
+      left: 3px;
+      position: relative;
+      font-weight: 100;
+}
+.back h1 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #e3d581;
+  border: 1px solid;
+  display: inline-block;
+  padding: 0 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+
+}
+/*block7*/
+#edm474 .block7{
+    padding: 50px 0;
+}
+#edm474 .block7 th{
+    background-color: #ddd;
+    color: #333;
+    border: 1px solid #ccc;
+}
+#edm474 .block7 td{
+    border: 1px solid #ccc;
+}
+@media only screen and (max-width: 1200px) {
+#edm474 .container{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 0px;
+}
+#edm474 .block3 .col-left{
+    width: 30%;
+}
+#edm474 .block3 .col-right{
+    width: 70%;
+}
+}
+@media only screen and (max-width: 975px) {
+/*  block5*/
+#edm474 .block5 .teacherbox{
+    float: none;
+    width: calc(100%);
+    box-sizing: border-box;
+    margin-top: 0px;
+}
+#edm474 .block5 .box_xiao{
+    margin-right: 0px;
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 100%
+}
+#edm474 .block5 .box_Liao{
+    margin-left: 0px;
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 100%
+}
+}
+@media only screen and (max-width: 600px) {
+#edm474 .block6 .card .smallpolice{
+   position: relative;
+    z-index: 2;
+    left: 0;
+    top: 0;
+}
+#edm474 .block6 .card{
+    max-width: 270px;
+    margin: 10px auto;
+    position: relative;
+}
+.tw-card:nth-of-type(3){
+    float: left
+}
+}
+@media only screen and (max-width: 780px) {
+#edm474 .desk-ver{
+    display: none;
+}
+#edm474 .mob-ver{
+    display:block;
+}
+#edm474 .titblock{
+    padding-top: 30px;
+    margin: 10px auto;
+}
+#edm474 .titblock h3{
+    font-size: 30px;
+}
+#edm474 .titblock h2{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+#edm474 .titblock:before{
+    left: 0;
+    top: 5%;
+    background-size: 70%;
+    background-repeat: no-repeat;
+}
+#edm474 .titblock:after{
+    right: -35px;
+    top: 5%;
+    background-size: 70%;
+    background-repeat: no-repeat;
+}
+#edm474 .block1,#edm474 .block2,#edm474 .block3,#edm474 .block4,#edm474 .block5{
+    position: relative;
+    overflow: hidden;
+}
+/*block1*/
+#edm474 .block1 .bigtit{
+    float: none;
+    width: 100%
+}
+#edm474 .block1 .bigtit h3{
+    font-size: 20px;
+    margin-top: 20px;
+}
+#edm474 .block1 .bigtit h2{
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    color: #1B74BB
+}
+#edm474 .block1 .bigtit img{
+    padding-top: 0px
+}
+#edm474 .block1 .policefemale{
+    float: none;
+     width: 100%;
+}
+/*block2*/
+#edm474 .wh_box{
+    padding: 30px 20px;
+    width: calc(100% - 40px);
+   margin: 0 auto;
+}
+#edm474 .block2 .wh_box .smallpolice{
+    position: relative;
+    top: 0;
+    right: 0px
+}
+
+#edm474 .vedio_box .smallpolice{
+    display: none  
+}
+#edm474 .vedio_box p{
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+/*block3*/
+#edm474 .block3 .col-right{
+    float: none;
+    width: calc(100%);
+    box-sizing: border-box;
+    padding-left: 0px
+}
+#edm474 .block3 .container{
+    padding: 0 20px
+}
+/*block4*/
+#edm474 .block4{
+    padding: 40px 0;
+}
+#edm474 .block4 .wh_box{
+    font-size: 18px;
+    border: 1px solid #1B74BB;
+}
+#edm474 .block4 .wh_box .smallpolice{
+    display: none
+}
+#edm474 .block4 .table-box{
+    width: 100%;
+    max-width: 550px;
+    margin: 20px auto;
+}
+ #edm474 .block4 .table-box td{
+    height: auto
+}
+#edm474 .block4 .col3{
+    float: none;
+}
+#edm474 .block4 .col3_40{
+    width: calc(100%);
+    max-width: 350px;
+    margin-left: 0px;
+    box-sizing: border-box;
+     margin: 0 auto
+}
+#edm474 .block4 .col3_20{
+    width: calc(100%);
+    max-width: 350px;
+    margin-left: 0px;
+    box-sizing: border-box;
+     margin: 0 auto
+}
+#edm474 .block4 ul li{
+    list-style: decimal;
+    font-size: 18px;
+}
+#edm474 .block4 table ul{
+    padding-left: 15px 
+}
+#edm474 .block4 .exmain{
+    padding: 0 20px 0 45px;
+    text-align: justify;
+    }
+/*block5*/
+#edm474 .block5{
+    padding: 40px 0;
+}
+
+}
+@media only screen and (max-width: 500px) {
+#edm474 .block5 .teacherbox .main{
+    float: none;
+    width: 100%;
+}
+#edm474 .block5 .teacherbox .main ul{
+    max-width: 250px;
+    margin: 0 auto;
+    margin-bottom: 10px
+}
+#edm474 .block5 .teacherbox .teacherphoto{
+    float: none;
+    width: auto;
+}
+
+}
